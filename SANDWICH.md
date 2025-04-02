@@ -6,59 +6,71 @@ In life, sometimes you just a easy, quick, and cheap lunch! This is where sandwi
 
 ## 1. Getting the Ingredients Together
 
-```javascript
-const functionName = (params) => {
-  // code to be executed
-}
-```
+When we think about building a sandwich, we can think about these parts:
 
-1. **const**: const should be used whenever a function expression is assigned to a variable.
-2. **The function name**: The name you choose for the function.
-3. **Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
-4. **The arrow syntax**: Indicates that this will be a function.
-5. **The body**: The statements that make up the function itself. Surrounded by curly braces.
+1. **Bread**: We need to decide what kind of bread we want to use! Whether its multigrain for health reasons, or white bread because the taste, choosing the bread is the foundation of our meal
+2. **Protein**: The source or protein we will choose for the sandwich. Protein is essential because it is what fills us up and gives us energy for the day. Types of protein include:
+   1. Meats such as turkey
+   2. Cheeses such as cheddar
+   3. Vegetarian options such as peanut butter
+3. **Vegetables**: Some consider this an optional step, but vegetables should not be skipped when building a sandwich! Items such as lettuce and tomatoes can provide so much necessary nutrition to fuel our bodies 
+4. **Sauce**: The last step to bring a sandwich together, the sauce. Consider this the seasoning of the sandwhich, where we can add things such as mustard or mayo for umami flavor, or even olive oil for health reasons
 
-*Example*:
+## 2. Naming the sandwhich!
 
-```javascript
-const greet = (name) => {
-  console.log("Hello, " + name + "!");
-}
-```
-
->Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include `fetchData( )`, `calculateArea( )`, or `printReport( )`. 
-
-## 2. Calling a function
-
-To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
-
-*Example*:
+There are 2 ways we can name our sandwich:
 
 ```
-greet('Alice'); // Outputs: Hello, Alice!
+1. Based off the ingredients
+2. Based off whatever is fun for you!
 ```
 
-## 3. Return values
+Why would we name a sandwich based off Ingredients?
 
-Functions can process data input and output a value using the *return* keyword.
+*When we name a sandwich based off ingredients, we do this to be descriptive and to either let yourself or othrs know what type of sandwich you are having. It is helpful in a restaurant settings, where you need to make quick decisions based off an item name on the menu*
 
-*Example*: 
+Why would we name a sandwich for fun?
+
+*We name a sandwich for fun when we make the sandwich either for yourself, or for others - usually family or friends! This can be an inside joke with others, or just a way to introduce some playfulness into your life.*
+
+## 3. Naming your Sandwich - Examples
+
+**Here is an example of an Ingredient Based Name**:
+
+
+Sandwich Inputs:
+1. Bread: `Sourdough`
+2. Protein: `Turkey`
+3. Vegetables: `Lettuce, Tomatoes`
+4. Sauce: `Pesto`
 
 ```
-const addNums = (numA, numB) => {
-  return numA + numB
-}
+Sandwich Name:
+Pesto Turkey on Sourdough
 ```
+>Tip: When we name a sandwich by the ingredients, we don't need to list every ingredient. Notice how I skipped vegetables here. This is to prevent the name from being a mouthful, while still being descriptive. 
+
+**Here is an example of a Fun Based Name**:
+
+If we take the same sandwich: 
+
+Sandwich Inputs:
+1. Bread: `Sourdough`
+2. Protein: `Turkey`
+3. Vegetables: `Lettuce, Tomatoes`
+4. Sauce: `Pesto`
+
+We can instead give it a name like this:
 
 ```
-const total = addNums(2, 4);
+Sandwich Name:
+Best sandwich ever!
 ```
 
-```
-console.log(total) // Expected value: 6
-```
+>Tip: When we name our sandwiches for fun, there doesn't have to be a scientific reason for our name. You could just name this sandwich "Best Sandwich Ever" because you just like this combination of ingredients the best!
 
-For more information on functions and how they are used in JS, check out the [MDN docs][example].
 
-[example]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions] 
+For more information on sandwiches and how to make them, check out this [article][example] from 17th Street Deli! A sandwich store local to me in Southern California :).
+
+[example]: [https://www.17thstreetdeli.com/blog/build-a-sandwich-101] 
 
